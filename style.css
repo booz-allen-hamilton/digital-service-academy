@@ -254,6 +254,12 @@ a{
 /* = NavBar
 -------------------------------------------------------------- */
 
+.navbar-nav li a:hover{
+	color: white !important;
+}
+
+
+
 .navbar{
 	margin-bottom: 0;
 }
