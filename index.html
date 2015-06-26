@@ -16,18 +16,26 @@
   <script src="./js/bootstrap.js"></script>
   <script src="./js/blocs.js"></script>
 
-<!-- Google Analytics -->
+  <!-- Google Analytics -->
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-63076956-2', 'auto', {'cookiePath': '/digital-service-academy/'});
-  ga('send', 'pageview');
-
+    ga('create', 'UA-63076956-2', 'auto', {
+      'cookiePath': '/digital-service-academy/'
+    });
+    ga('send', 'pageview');
   </script>
-<!-- Google Analytics END -->
+  <!-- Google Analytics END -->
 
   <title>Digital Service Academy</title>
 </head>
@@ -41,7 +49,7 @@
       <div class="container">
         <nav class="navbar row">
           <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="http://bah.com">
               <img src="img/booz-allen-logo.png" height="25px" />
             </a>
             <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
@@ -497,7 +505,7 @@
               Ron Sanders
             </h3>
             <p>
-              Booz Allen Industry Leader in Human Capital, Organizational Development, and Learning Strategy
+              Booz Allen Industry Leader in Human Capital and Organizational Development
             </p>
             <a href="mailto:sanders_ron@bah.com" target="_blank">
               <span class="fa fa-envelope-o icon icon-mail icon-md pull-left"></span>
@@ -648,4 +656,5 @@
   <!-- Main container END -->
 
 </body>
+
 </html>
